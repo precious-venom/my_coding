@@ -1,129 +1,112 @@
 <html>
 <head>
+    <title>web page</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>img card</title>
     <style>
-        .container{
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            margin: 20px;
-            background-color: rgb(71, 70, 70); 
-            border-radius: 10px;
-            height: 1000px;
-            width: 700px;
+        body{
+            background-color:black;
             display: flex;
-            
-            gap: 20px;
-            }
-        .pic{
-            background-color: rgb(51, 48, 48);
-            border-radius: 10px;
-            box-shadow: 0 4px 8px;
-            width: auto;
-            height: 270px;
-            overflow: hidden;
+            margin: 40px;
+            font-family: 'arial',sans-serif; 
             position: relative;
-            }  
-        .pic img{
-            height: 170px;
             width: 100%;
-            object-fit: cover;
-            }
-        .more {
-            color: white;
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background-color: rgb(51, 48, 48);
-            border-radius: 50%;  
-            height: 25px;  
-            width: 25px; 
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            height: 1500px;
         }
-        .full{
-            color: white;
-            padding: 20px;
+        .container1{
+            background-color: aquamarine;
+            width: 400px;
+            height: 750px;
+            padding-top: 50px;
             position: relative;
-            }
-    
-        .info{
-            padding-bottom: 10px;
-            font-size: 15px;
-        }
-        .info i{
-            padding: 10px;
+            text-align: center;
             position: absolute;
-            right: 10px;
-            top: 10px;
+            top: 200px;
         }
-        .text{
-            padding-bottom: 10px;
-            font-size: 15px;
+        .black-icon{
+            position: absolute;
+            left: 15px;
+            top: 15px;
         }
-        .rate{
-            font-size: 12px;
-            color: rgb(135, 131, 131);
+        .list-icon{
+            position: absolute;
+            right: 15px;
+            top: 15px;
         }
-             
+        h2{
+            font-size: 40px;
+        }
+        .pop{
+            border-radius: 30px;
+            background-color: black;
+            color: white;
+            padding: 6px;
+            margin-left: 80px;
+            margin-right: 80px;
+            margin-bottom: 10px;
+        }
+        .symbol{
+           padding: 20px; 
+        }
+        b{
+          font-size: 30px;
+        }
+        .pic img{
+            width: 330px;
+            height: 200px; 
+        }
+
+        .container2{
+            background-color: rgb(242, 242, 4);
+            width: 400px;
+            height: 650px;
+            padding-left: 40px;
+            margin: 10px;
+            padding-top: 20px;
+            position: absolute;
+            top: 0;
+            left: 450px;
+            text-align: left;
+        }
+        .info{
+            padding: 10px;
+        }
+        
     </style>
 </head>
-<body>
-    <div class="container">
-        <!--first image-->
+</body>
+    <!--fist page-->
+    <div class="container1">
+        <div class="black-icon">
+            <i class="bi bi-brilliance"></i>
+        </div>
+        <div class="list-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+        </div>
+            <h2>Expand Your <br> Business <br> with our agency </h2>
+            <p>We Help <ins>Fast Gowrth</ins> Teams Scale Their Design <br> Roadmaps At Lightning Speeds</p><br>
+        <div class="pop">  
+            <p>Get Quote -- it's Free</p>
+        </div>
+        <div class="symbol">
+           <strong><i class="bi bi-discord">Discord </i>  <i class="bi bi-triangle-fill">ATLASSIAN </i>   Walmart<i class="bi bi-brightness-high"></i></strong>
+        </div>
+        <p><b>Watch Showreel</b> <br> #1 Digital Design Agency </p><br>
         <div class="pic">
-            <img src="https://fastly.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA" alt="img 1">       
-            <div class="more">
-                 <i class="bi bi-three-dots"></i>
-            </div>
-            <div class="full">
-                <div class="info">
-                    IMG_123456.jpg <i class="bi bi-pencil-fill"></i>
-                </div>
-                <div class="text">    
-                    7/18/17
-                </div>
-                <div class="rate">
-                    7.6 mb
-                </div>
-            </div>
-        </div> 
-        <!--second image-->
-        <div class="pic">
-            <img src="https://fastly.picsum.photos/id/918/536/354.jpg?hmac=GaYNaPgAJWVIdpEYTSdCnJov3B-6qncRKXJjHAewMow" alt="img 2">
-            <div class="more">
-                <i class="bi bi-three-dots"></i>
-            </div>
-            <div class="full">
-                <div class="info">
-                IMG_702632.jpg <i class="bi bi-pencil-fill"></i>
-                </div>
-                <div class="text">    
-                   27/5/02
-                </div>
-                <div class="rate">
-                    8.8 mb
-                </div>
-            </div>
-        </div> 
-        <!--third image-->
-        <div class="pic">
-            <img src="https://fastly.picsum.photos/id/1084/536/354.jpg?grayscale&hmac=Ux7nzg19e1q35mlUVZjhCLxqkR30cC-CarVg-nlIf60" alt="img 3">
-            <div class="more">
-                <i class="bi bi-three-dots"></i>
-            </div>
-            <div class="full">
-                <div class="info">
-                IMG_654321.jpg <i class="bi bi-pencil-fill"></i>
-                </div>
-                <div class="text">    
-                   05/4/03
-                </div>
-                <div class="rate">
-                    5.2 mb
-                </div>
-            </div>
+            <img src="data:image/jpeg;base64,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" alt="iamge">
+        </div>
+    </div>
+     <!--second page-->
+    <div class="container2">
+        <p> We Help <ins>Startups</ins> To Scale Their Business <br><br>On Reasonable Price </p><br>
+        <div class="pop">  
+            <p>Get Quote -- it's Free</p>
+        </div>
+        <div class="info">
+            <h4><i class="bi bi-globe-central-south-asia"></i>Web development <i class="bi bi-arrow-up-right"></i></h4>
+            <h4><i class="bi bi-square-fill"></i>Bulid Mobile Application<i class="bi bi-arrow-up-right"></i></h4>
+            <h4><i class="bi bi-pc-display-horizontal"></i>Dashboard Design<i class="bi bi-arrow-up-right"></i></h4>
         </div>
     </div>
 </body>
