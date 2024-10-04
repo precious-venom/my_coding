@@ -10,10 +10,21 @@
         }
         .container{
             display: flex;
+            position: relative;
+        }
+        .col-1{
+            display: flex;     
+        }
+        .col-2{
+            display: flex; 
             flex-direction: column;
             justify-content: center;
             align-items: center;
             gap: 30px;
+        }
+        .col-3{
+            display: flex;
+            flex-direction: column;
         }
         .card-1{
             background-color: aquamarine;
@@ -52,9 +63,13 @@
         .symbol{
             font-size: 15px;
             margin-bottom: 30px;
+            margin-top: 10px;
         }
         .symbol strong{
             padding: 15px;
+        }
+        .card-3 .info p{
+            padding: 1px;
         }
         b{
             font-size: 30px;
@@ -107,27 +122,51 @@
             margin-left: 10px;
             padding-top: 30px;
         }
-        .card-3 .info p{
+        .card-3 .info h2{
             padding-bottom: 2px;
         }
 
         .card-4{
-            background-color: plum;
+            background-color: rgb(239, 165, 239);
             text-align: left;
             position: relative;
             width: 400px;
             height: 800px;
-            padding: 20px;
+            padding: 20px;  
         }
-    
-        
+        .card-4 h5{
+           padding-top: 30px;
+           font-size: 16px;
+         }
+        .card-4 h1{
+            font-size: 40px;
+            padding-bottom: 10px;
+        }
+        .photo{
+            padding-bottom: 160px;
+        }
+        .gap{
+            position: absolute;
+            left: 5%;
+            top: 75% ;
+        }
+        .gap-2{
+            position: absolute;
+            right: 25%;
+            top: 75% ;
+        }
+        .card-4 h3{
+            margin-left: 190px;
+        }
+
     </style>
 </head>
-</body>
+<body>
     <div class="container">
+    <div class="col"> 
         <!--column 1-->
-        <!--card 1-->
-        <div class="column-1">
+        <div class="col-1">
+            <!--card 1-->
             <div class="card-1">
                 <div class="black-icon">
                     <i class="bi bi-brilliance"></i>
@@ -147,13 +186,14 @@
                 </div>
                 <p><b> Watch Showreel</b><br> <br> #1 Digital Design Agency</p><br><br>
                 <div class="pic">
-                    <img src="https://fastly.picsum.photos/id/547/536/354.jpg?hmac=lZyM-Xbolp2WH1eYzC5fAxmS8uMd495wJCN0M1JoYZI" width="300px" height="200px" alt="image">
+                    <img src="https://fastly.picsum.photos/id/547/536/354.jpg?hmac=lZyM-Xbolp2WH1eYzC5fAxmS8uMd495wJCN0M1JoYZI"
+                     width="300px" height="200px" alt="img 1">
                 </div>
             </div>
         </div>
         <!--column 2-->
-        <!--card 2-->
-        <div class="column-2">
+        <div class="col-2">
+            <!--card 2-->
             <div class="card-2">
                 <h4>We help <ins>Startups</ins> To Scale Their Business <br><br> On Reasonable Price</h4>
                 <div class="pop">
@@ -181,22 +221,22 @@
                     </svg>
                 </div>
                 <div class="info">
-                   <p><h2>Home</h2> </p> 
-                   <p><h2>Services</h2> </p> 
-                   <p><h2>Features</h2> </p> 
-                   <p><h2>About Us</h2> </p>  
-                   <p><h2>Contact</h2> </p> 
+                   <p><h2> Home     <i class="bi bi-chevron-right"></i></h2></p>
+                   <p><h2> Services <i class="bi bi-chevron-right"></i></h2></p> 
+                   <p><h2> Features <i class="bi bi-chevron-right"></i></h2></p> 
+                   <p><h2> About Us <i class="bi bi-chevron-right"></i></h2></p>  
+                   <p><h2> Contact  <i class="bi bi-chevron-right"></i></h2></p> 
                 </div>
                 <div class="symbol">
-                    <i class="bi bi-person"></i><strong>Login/Create an Account</strong>
+                    <i class="bi bi-person"></i><strong> Login/Create an Account</strong><i class="bi bi-chevron-right"></i>
                 </div>
             </div>
         </div>
         <!--column 3-->
-        <!--card-4-->
-        <div class="column-3">
+        <div class="col-3">
+            <!--card-4-->
             <div class="card-4">
-                <div class="black-icon"></div>
+                <div class="black-icon">
                     <i class="bi bi-brilliance"></i>
                 </div>
                 <div class="list-icon">
@@ -204,10 +244,23 @@
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                     </svg>
                 </div>
-                <strong>Services/<ins>Web Development</ins> </strong>
-                <h1>web-<i class="bi bi-globe-central-south-asia"></i> <br> Development</h1>
-
+                <h5>Services /<ins> Web Development</ins></h5>
+                <h1>web--<i class="bi bi-globe-central-south-asia"></i> <br> Development</h1>
+                <p>Web Development Is The Work Involved In <br><br> Developing A Website For The Internet Or An <br><br>internet Web Development.</p><br>
+                <div class="photo">
+                    <img src="https://fastly.picsum.photos/id/5/5000/3334.jpg?hmac=R_jZuyT1jbcfBlpKFxAb0Q3lof9oJ0kREaxsYV3MgCc"
+                    width="390" height="230" alt="img 2">
+                </div>
+                <div class="gap">
+                    <p><b>80<i class="bi bi-plus"></i></b> <br> <strong>Total Clients</strong> </p>
+                </div>
+                <div class="gap-2">
+                    <p><b><i class="bi bi-currency-dollar"></i>2B</b> <br> <strong> Raised Fund</strong></p> <br>
+                </div>
+                <p><h3><ins>Web Development</ins>   <i class="bi bi-caret-down-fill"></i></h3></p>
             </div>
         </div>
-    </div>
+    </div>       
+    </div>    
+</body>
 </html>
