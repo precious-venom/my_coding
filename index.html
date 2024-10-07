@@ -4,18 +4,27 @@
     <title>web page</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
-        body{
-            background-color:black;
-            font-family: 'arial',sans-serif; 
+
+        body {
+            font-family: 'arial', sans-serif;
             position: relative;
             background-color: white;
         }
 
         .container {
             position: relative;
+            background-color: black;
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
         }
-        .col-1{
-            display: flex;     
+
+
+        .col-1 {
+            display: flex;
         }
 
         .col-2 {
@@ -67,10 +76,11 @@
             border-radius: 30px;
             margin-left: 80px;
             margin-right: 80px;
-            padding: 2px;
-            margin-bottom: 30px; 
-        } 
-        .symbol{
+            padding: 5px;
+            margin-bottom: 40px;
+        }
+
+        .symbol {
             font-size: 15px;
             margin-bottom: 30px;
             margin-top: 10px;
@@ -78,10 +88,6 @@
 
         .symbol strong {
             padding: 15px;
-        }
-
-        .card-3 .info p {
-            padding: 1px;
         }
 
         b {
@@ -93,7 +99,7 @@
             text-align: left;
             position: relative;
             width: 400px;
-            height: 45vh;
+            height: 500px;
             padding: 20px;
             text-align: left;
         }
@@ -103,9 +109,8 @@
             background-color: black;
             border-radius: 30px;
             margin-left: 20px;
-            margin-right: 150px;
-            padding: 1px;
-            margin-bottom: 60px;
+            margin-right: 160px;
+            margin-bottom: 50px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -123,8 +128,9 @@
             padding: 10px;
             border-bottom: 2px solid black;
         }
-        .text strong{
-            margin-left: 150px;
+
+        .text strong {
+            margin-left: 130px;
         }
 
         .card-3 {
@@ -132,7 +138,7 @@
             text-align: left;
             position: relative;
             width: 400px;
-            height: 45vh;
+            height: 500px;
             padding: 20px;
         }
 
@@ -140,7 +146,16 @@
             margin-left: 10px;
             padding-top: 30px;
         }
-        .card-3 .info h2{
+
+        .card-3 .info p {
+            padding: 1px;
+        }
+        .card-3 .info i{
+            position: absolute;
+            right: 10%;
+        }
+
+        .card-3 .info h2 {
             padding-bottom: 2px;
         }
 
@@ -184,8 +199,10 @@
             right: 25%;
             top: 75%;
         }
-        .card-4 h3{
-            margin-left: 190px;
+
+        .card-4 h3 {
+            margin-left: 150px;
+            padding-top: 130px;
         }
 
         .column {
@@ -195,32 +212,9 @@
             align-items: center;
             gap: 20px;
         }
-        
+
         .card {
             width: 360px;
-        }
-        .card-2,
-        .card-3 {
-            height: 45vh;
-        }
-
-        .card-1,
-        .card-4 {
-            height: 800px;
-        }
-        
-   
-
-        .column {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .card {
-            width: 350px;
         }
 
         .card-2,
@@ -245,22 +239,23 @@
                     <i class="bi bi-brilliance"></i>
                 </div>
                 <div class="list-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                    </svg>
+                    <i class="bi bi-list" viewBox="0 0 16 16"></i>
                 </div>
                 <h2>Expand Your <br> Business <br> with our agency </h2>
-                <p>We Help <ins>Fast Gowrth</ins> Teams Scale Their Design <br><br> Roadmaps At Lightning Speeds</p><br>
-                <div class="pop">  
+                <p>We Help <ins>Fast Gowrth</ins> Teams Scale Their Design <br><br> Roadmaps At Lightning Speeds</p>
+                <br> <br>
+                <div class="pop">
                     <p>Get Quote -- it's Free</p>
                 </div>
                 <div class="symbol">
-                    <strong><i class="bi bi-discord">Discord </i></strong>  <strong><i class="bi bi-triangle-fill">ATLASSIAN </i></strong>   <strong>Walmart<i class="bi bi-brightness-high"></i></strong>
+                    <strong> <i class="bi bi-discord"></i> Discord </strong>
+                     <strong> <i class="bi bi-triangle-fill"></i> ATLASSIAN </strong> 
+                    <strong> Walmart <i class="bi bi-brightness-high"></i></strong>
                 </div>
                 <p><b> Watch Showreel</b><br> <br> #1 Digital Design Agency</p><br><br>
                 <div class="pic">
                     <img src="https://fastly.picsum.photos/id/547/536/354.jpg?hmac=lZyM-Xbolp2WH1eYzC5fAxmS8uMd495wJCN0M1JoYZI"
-                     width="300px" height="200px" alt="img 1">
+                        width="300px" height="200px" alt="img 1">
                 </div>
             </div>
         </div>
@@ -269,41 +264,53 @@
         <!--column 2-->
         <div class="column col-2">
             <!--card 2-->
-            <div class="card-2">
+            <div class="card card-2">
                 <h4>We help <ins>Startups</ins> To Scale Their Business <br><br> On Reasonable Price</h4>
                 <div class="pop">
                     <p>Get Quote -- it's Free</p>
                 </div>
                 <div class="info">
-                    <h3><i class="bi bi-globe-central-south-asia"></i> Web Development <i class="bi bi-arrow-up-right"></i></h3>
-                    <h3><i class="bi bi-square-fill"></i>Bulid Mobile Application <i class="bi bi-arrow-up-right"></i> </h3>
-                    <h3><i class="bi bi-pc-display-horizontal"></i>Dashboard Design <i class="bi bi-arrow-up-right"></i></h3><br> <br>
+                    <h3><i class="bi bi-globe-central-south-asia"></i> Web Development <i
+                            class="bi bi-arrow-up-right"></i></h3>
+                    <h3><i class="bi bi-square-fill"></i>Bulid Mobile Application <i class="bi bi-arrow-up-right"></i>
+                    </h3>
+                    <h3><i class="bi bi-pc-display-horizontal"></i>Dashboard Design <i class="bi bi-arrow-up-right"></i>
+                    </h3><br> <br>
                 </div>
                 <div class="text">
-                    <p><b><i class="bi bi-discord"></i>Discord</b>  <strong><ins>View</ins></strong></p>
+                    <p><b><i class="bi bi-discord"></i>Discord</b> <strong><ins>View</ins></strong></p>
                 </div>
-                    <p><b><i class="bi bi-currency-dollar"></i>40M</b> fund raised in crunchbase</p> 
-                </div>
+                <p><b><i class="bi bi-currency-dollar"></i>40M</b> fund raised in crunchbase</p>
             </div>
+
             <!--card 3-->
             <div class="card card-3">
                 <div class="black-icon">
                     <i class="bi bi-brilliance"></i>
                 </div>
                 <div class="list-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                    </svg>
+                    <i class="bi bi-list" viewBox="0 0 16 16"></i>
                 </div>
                 <div class="info">
-                   <p><h2> Home     <i class="bi bi-chevron-right"></i></h2></p>
-                   <p><h2> Services <i class="bi bi-chevron-right"></i></h2></p> 
-                   <p><h2> Features <i class="bi bi-chevron-right"></i></h2></p> 
-                   <p><h2> About Us <i class="bi bi-chevron-right"></i></h2></p>  
-                   <p><h2> Contact  <i class="bi bi-chevron-right"></i></h2></p> 
+                    <p>
+                    <h2> Home <i class="bi bi-chevron-right"></i></h2>
+                    </p>
+                    <p>
+                    <h2> Services <i class="bi bi-chevron-right"></i></h2>
+                    </p>
+                    <p>
+                    <h2> Features <i class="bi bi-chevron-right"></i></h2>
+                    </p>
+                    <p>
+                    <h2> About Us <i class="bi bi-chevron-right"></i></h2>
+                    </p>
+                    <p>
+                    <h2> Contact <i class="bi bi-chevron-right"></i></h2>
+                    </p>
                 </div>
                 <div class="symbol">
-                    <i class="bi bi-person"></i><strong> Login/Create an Account</strong><i class="bi bi-chevron-right"></i>
+                    <i class="bi bi-person"></i><strong> Login/Create an Account</strong><i
+                        class="bi bi-chevron-right"></i>
                 </div>
             </div>
 
@@ -317,32 +324,33 @@
                     <i class="bi bi-brilliance"></i>
                 </div>
                 <div class="list-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                    </svg>
+                   <i class="bi bi-list" viewBox="0 0 16 16"></i>     
                 </div>
-                <h5>Services /<ins> Web Development</ins></h5>
-                <h1>web--<i class="bi bi-globe-central-south-asia"></i> <br> Development</h1>
-                <p>Web Development Is The Work Involved In <br><br> Developing A Website For The Internet Or An <br><br>internet Web Development.</p><br>
+                <h5> Services /<ins> Web Development </ins> </h5>
+                <h1> web--<i class="bi bi-globe-central-south-asia"></i> <br> Development</h1>
+                <p> Web Development Is The Work Involved In <br><br> Developing A Website For The Internet Or An
+                    <br><br> internet Web Development.
+                </p><br>
                 <div class="photo">
                     <img src="https://fastly.picsum.photos/id/5/5000/3334.jpg?hmac=R_jZuyT1jbcfBlpKFxAb0Q3lof9oJ0kREaxsYV3MgCc"
-                        width="390" height="230" alt="img 2">
+                    width="390" height="230" alt="img 2">
                 </div>
                 <div class="gap">
                     <p>
-                        <b> 80<i class="bi bi-plus"></i> </b> <br> <strong> Total Clients </strong> 
+                        <b> 80<i class="bi bi-plus"></i></b> <br> <strong>Total Clients</strong> 
                     </p>
                 </div>
                 <div class="gap-2">
                     <p>
-                        <b> <i class="bi bi-currency-dollar"></i>2B </b> <br> <strong> Raised Fund </strong>
+                        <b> <i class="bi bi-currency-dollar"></i>2B</b> <br> <strong> Raised Fund</strong>
                     </p> <br>
                 </div>
-                <p><h3><ins>Web Development</ins>   <i class="bi bi-caret-down-fill"></i></h3></p>
+                <p>
+                    <h3> <ins> Web Development </ins> <i class="bi bi-caret-down-fill"></i> </h3>
+                </p>
             </div>
         </div>
-    </div>       
-    </div>    
+    </div>
 </body>
 
 </html>
