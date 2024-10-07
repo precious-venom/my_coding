@@ -110,12 +110,17 @@
             border-radius: 30px;
             margin-left: 20px;
             margin-right: 160px;
-            margin-bottom: 50px;
+            margin-bottom: 40px;
             display: flex;
             align-items: center;
             justify-content: center;
         }
-
+        .card-2 .info div{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
         .info i {
             padding: 20px;
         }
@@ -147,9 +152,7 @@
             padding-top: 30px;
         }
 
-        .card-3 .info p {
-            padding: 1px;
-        }
+       
         .card-3 .info i{
             position: absolute;
             right: 10%;
@@ -226,6 +229,17 @@
         .card-4 {
             height: 800px;
         }
+
+        .card-3 .info div{
+            margin-bottom: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .card-3 .symbol .right-icon{
+            margin-left: 70px;
+        }
+       
     </style>
 </head>
 
@@ -265,17 +279,20 @@
         <div class="column col-2">
             <!--card 2-->
             <div class="card card-2">
-                <h4>We help <ins>Startups</ins> To Scale Their Business <br><br> On Reasonable Price</h4>
+                <h4>We help <ins>Startups</ins> To Scale Their Business <br><br> On Reasonable Price</h4><br>
                 <div class="pop">
                     <p>Get Quote -- it's Free</p>
                 </div>
                 <div class="info">
-                    <h3><i class="bi bi-globe-central-south-asia"></i> Web Development <i
-                            class="bi bi-arrow-up-right"></i></h3>
-                    <h3><i class="bi bi-square-fill"></i>Bulid Mobile Application <i class="bi bi-arrow-up-right"></i>
-                    </h3>
-                    <h3><i class="bi bi-pc-display-horizontal"></i>Dashboard Design <i class="bi bi-arrow-up-right"></i>
-                    </h3><br> <br>
+                    <div>
+                        <h3><i class="bi bi-globe-central-south-asia"></i> Web Development</h3> <i class="bi bi-arrow-up-right"></i>
+                    </div>
+                    <div>
+                        <h3><i class="bi bi-square-fill"></i>Bulid Mobile Application </h3><i class="bi bi-arrow-up-right"></i>
+                    </div>
+                    <div>
+                        <h3><i class="bi bi-pc-display-horizontal"></i>Dashboard Design </h3><i class="bi bi-arrow-up-right"></i>
+                    </div>
                 </div>
                 <div class="text">
                     <p><b><i class="bi bi-discord"></i>Discord</b> <strong><ins>View</ins></strong></p>
@@ -292,28 +309,26 @@
                     <i class="bi bi-list" viewBox="0 0 16 16"></i>
                 </div>
                 <div class="info">
-                    <p>
-                    <h2> Home <i class="bi bi-chevron-right"></i></h2>
-                    </p>
-                    <p>
-                    <h2> Services <i class="bi bi-chevron-right"></i></h2>
-                    </p>
-                    <p>
-                    <h2> Features <i class="bi bi-chevron-right"></i></h2>
-                    </p>
-                    <p>
-                    <h2> About Us <i class="bi bi-chevron-right"></i></h2>
-                    </p>
-                    <p>
-                    <h2> Contact <i class="bi bi-chevron-right"></i></h2>
-                    </p>
+                    <div>
+                    <h2> Home </h2><i class="bi bi-chevron-right"></i>
+                    </div>  
+                    <div>
+                    <h2> Services </h2><i class="bi bi-chevron-right"></i>
+                    </div>
+                    <div>
+                    <h2> Features </h2><i class="bi bi-chevron-right"></i>
+                    </div>
+                    <div>
+                    <h2> About Us </h2><i class="bi bi-chevron-right"></i>
+                    </div>
+                    <div>
+                    <h2> Contact </h2><i class="bi bi-chevron-right"></i>
+                    </div>
                 </div>
                 <div class="symbol">
-                    <i class="bi bi-person"></i><strong> Login/Create an Account</strong><i
-                        class="bi bi-chevron-right"></i>
+                    <i class="bi bi-person"></i><strong> Login/Create an Account </strong><i class="bi bi-chevron-right right-icon"></i>
                 </div>
             </div>
-
         </div>
 
         <!--column 3-->
