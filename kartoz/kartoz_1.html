@@ -1,0 +1,134 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url(https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .container {
+            background-color: rgba(76, 80, 71, 0.273);
+            width: 370px;
+            height: 400px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px;
+        }
+
+        h6 {
+            background-color: rgba(89, 84, 84, 0.73);
+            color: yellowgreen;
+            padding: 5px;
+            position: absolute;
+            top: 10px;
+            right: 30px;
+        }
+
+        .POP-UP {
+            color: white;
+            margin-top: 40px;
+        }
+
+        h2 {
+            margin-left: 30px;
+        }
+
+        h3 {
+            margin-top: 5px;
+            font-size: 30px;
+            margin-left: 30px; 
+        }
+
+        .text-box{
+            margin-left: 55px; 
+        }
+
+        .top input[type="text"] {
+            border-radius: 10px;
+            font-weight: bold;
+            padding: 5px;
+            width: 80%;
+            border-color: white;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .buttom input[type="text"] {
+            border-radius: 10px;
+            font-weight: bold;
+            padding: 5px;
+            width: 80%;
+            border-color: white;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .buttons{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .Encode input[type="submit"] {
+            color: rgb(202, 50, 205);
+            border-radius: 10px;
+            font-weight: bold;
+            padding: 8px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-color: white;
+        }
+
+        .Decode input[type="submit"] {
+            color:  rgb(202, 50, 205);
+            border-radius: 10px;
+            font-weight: bold;
+            padding: 8px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h6> KARTOZ.COM </h6>
+    <!--full body-->
+    <div class="container">
+        <!--pop up-->
+        <div class="pop-up">
+            <h2> Message </h2>
+            <h3> Encryption </h3>
+            <!--text box-->
+            <div class="text-box">
+                <div class="top">
+                    <input type="text" placeholder="Enter the text" required>
+                </div>
+                <div class="buttom">
+                    <input type="text" placeholder="Click to copy the content" readonly>
+                </div>
+            </div>
+            <!-- buttons -->
+            <div class="buttons">
+                <div class="Encode">
+                    <form action="submit" method="post">
+                        <input type="submit" value="Encode">
+                    </form>
+                </div>
+                <div class="Decode">
+                    <form action="submit" method="post">
+                        <input type="submit" value="Decode">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

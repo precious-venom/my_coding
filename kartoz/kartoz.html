@@ -2,22 +2,24 @@
 
 <head>
     <title>kartoz </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
-        body{
-            background-color: black;
+        body {
+            background-image: url(https://fastly.picsum.photos/id/20/3670/2462.jpg?hmac=CmQ0ln-k5ZqkdtLvVO23LjVAEabZQx2wOaT4pyeG10I);
+            background-size: cover;
             font-family: Arial, sans-serif;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
-        .container{
-            background-color: rgba(99, 111, 133, 0.426);
+        .container {
+            background-color: rgba(81, 81, 98, 0.747);
             width: 370px;
-            height: 600px;
+            height: 550px;
         }
 
-        h6{
+        h6 {
             background-color: rgba(89, 84, 84, 0.73);
             color: yellowgreen;
             padding: 5px;
@@ -26,44 +28,58 @@
             margin-bottom: 20%;
         }
 
-        .POP-UP{
+        .POP-UP {
             color: white;
         }
 
-        h1{
+        h1 {
             margin-left: 20%;
             margin-bottom: 20px;
         }
 
-        .latter{
-            margin-left: 35%; 
-            margin-bottom: 20%;
+        .latter {
+            margin-left: 35%;
+            margin-bottom: 15%;
         }
 
-        form{
+        .enter {
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        input[type="submit"]{
+        a {
             background-color: yellowgreen;
             padding: 10px;
             padding-right: 15%;
             padding-left: 15%;
             margin-bottom: 30px;
+            text-decoration: none;
+            color: black;
         }
 
-        p{
+        p {
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 3px;
             font-size: small;
         }
+        
+        i{
+            font-size: 30px;
+            color: rgb(104, 126, 237);
+            padding-top: 30px;
+        }
+
+        .buttom {
+            font-weight: bold;
+            color: gold;
+        }
 
     </style>
 </head>
+
 <body>
     <!--full body-->
     <div class="container">
@@ -75,11 +91,17 @@
                 <h1> C O M E </h1>
             </div>
             <!--Enter-button-->
-            <form action="submit" method="post">
-                <input type="submit" value="E N T E R">
-            </form>
+            <div class="enter">
+                <a href=".\kartoz_1.html">
+                   E N T E R
+                </a>
+            </div>
             <p> <strong> Use To Make Encrypt To Decrypt </strong> </p>
             <p> <strong> KARTOZ.com </strong> </p>
+            <p> <i class="bi bi-shield-lock"></i> </p>
+            <div class="buttom">
+                <p> 100% Secure </p> 
+            </div>
         </div>
     </div>
 </body>
