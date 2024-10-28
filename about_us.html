@@ -1,90 +1,21 @@
 <html>
-
 <head>
     <title> about page</title>
-    <style>
-        body {
-            margin: 0px;
-            padding: 0%;
-        }
-
-        .container {
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-        }
-
-        .menu { 
-            width: 300px;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .menu h5 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .info {
-            margin: 20px;
-        }
-
-        p {
-            font-size: 15px;
-        }
-
-        .about {
-            margin-right: 300px;
-
-        }
-
-        .principles {
-            margin-left: 400px;
-            margin-right: 50px;
-        }
-
-        .team {
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .team p{
-            margin-left: 15px;
-        }
-
-        .team h3{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .tech{
-            width: 250px;
-            height: auto;  
-        }
-        
-        .busi{
-            width: 250px;
-            height: auto;
-        }
-        .mark{
-            width: 250px;
-            height: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="./assets/css/about_us.css">
 </head>
 
 <body>
     <!--container-->
-    <main class="container">
+    <main class="about_section">
+        <!-- top-side-design-->
+        <div class="circle"></div>
         <!--navigation menu-->
         <section class="menu">
-            <h5> Home </h5>
-            <h5> Service </h5>
-            <h5> Work </h5>
-            <h5> Contact us </h5>
-            <h5> About us</h5>
+           <a href=""> <h3> Home </h3> </a>
+           <a href=""> <h3> Service </h3> </a>
+           <a href=""> <h3> Work </h3> </a>
+           <a href=""> <h3> Contact us </h3> </a>
+           <a href=""> <h3> About us</h3> </a>
         </section>
         <!--information-->
         <section class="info">
@@ -115,35 +46,41 @@
                 <h1> Our team </h1>
                 <section class="team">
                     <!--card-1-->
-                    <div class="tech">
+                    <div class="card tech">
                         <h3> Technical team </h3>
                         <p> ksgbvbfigvsibn eh fisd npefvhasojdfvpj sod fvsdhfvaosdfvnidjvn dsvhisdhvnosd
                             bfvhbsdovj jhdvohj jpiejf pjpijfpjpdjv pieajrfmnwe fhowehf0efpcn.
                         </p>
                         <div class="pic">
-                            <img src="E:\prateek documents\prateek_sslc.jpg" alt="tecnical symbol" width="150px" height="100PX">
+                            <img src="e:\coding_images\tech symbol.png" alt="tecnical symbol" width="150px"
+                                height="100PX">
                         </div>
                     </div>
                     <!--card-2-->
-                    <div class="Busi">
+                    <div class="card busi">
                         <h3> Business team</h3>
                         <p> ksgbvbfigvsibn eh fisd npefvhasojdfvpj sod fvsdhfvaosdfvnidjvn dsvhisdhvnosd
                             bfvhbsdovj jhdvohj jpiejf pjpijfpjpdjv pieajrfmnwe fhowehf0efpcn ehfohaps.
                         </p>
-                        <img src="" alt="Business symbol" width="150px" height="100PX">
+                        <div class="pic">
+                            <img src="e:\coding_images\market symbol.png" alt="Business symbol" width="100%"
+                                height="100PX">
+                        </div>
                     </div>
                     <!--card-3-->
-                    <div class="mark">
+                    <div class="card mark">
                         <h3> Market team </h3>
                         <p> ksgbvbfigvsibn eh fisd npefvhasojdfvpj sod fvsdhfvaosdfvnidjvn dsvhisdhvnosd
                             bfvhbsdovj jhdvohj jpiejf pjpijfpjpdjv pieajrfmnwe fhowehf0efpcn ehfohaps.
                         </p>
-                        <img src="" alt="Market symbol" width="150px" height="100PX">
+                        <div class="pic">
+                            <img src="e:\coding_images\dollor symbol.png" alt="Market symbol" width="150px"
+                                height="100PX">
+                        </div>
                     </div>
                 </section>
             </section>
         </section>
     </main>
 </body>
-
 </html>
