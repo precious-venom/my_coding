@@ -4,110 +4,106 @@
     --gradient: linearlinear-gradient(90deg, red, yellow);
 }
 
-
-/* Styles for desktop devices */
-@media only screen and (min-width: 1025px) {
-   
-    body {
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .about_section {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-    }
-
-    .circle {
-        border-radius: 50%;
-        position: absolute;
-        top: 0%;
-        right: 0%;
-        transform: translate(50%, -50%);
-        background-color: BEB1E2;
-        width: 200px;
-        height: 200px;
-    }
-
-    .about_section .menu {
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-        padding-top: 200px;
-        background-image: url("./../img/menu_bg.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: left;
-    }
-
-    .about_section .menu a {
-        margin-right: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: black;
-    }
-
-    .about_section .info {
-        padding: 0px 50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .about_section p {
-        font-size: 15px;
-    }
-
-    .about_section .about {
-        max-width: 70%;
-    }
-
-    .about_section .principles {
-        max-width: 70%;
-        align-self: flex-end;
-    }
-
-    .about_section h1 {
-        font-size: 27px;
-    }
-
-    .about_section .card {
-        width: 250px;
-        height: auto;
-        background-color: C8EFF1;
-    }
-
-    .about_section .team {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .about_section .team p {
-        margin: 15px;
-    }
-
-    .about_section .team h3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 20px;
-    }
-
-    .about_section .team .pic {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+body {
+    margin: 0px;
+    padding: 0px;
 }
+
+.about_section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.about_section .menu {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    background-image: url("./../img/menu_bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.about_section .menu a {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.about_section .info {
+    margin-left: 50px;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about_section p {
+    font-size: 16px;
+}
+
+.about_section .about {
+    max-width: 70%;
+}
+
+.about_section .principles {
+    max-width: 70%;
+    align-self: flex-end;
+}
+
+.about_section h1 {
+    font-size: 27px;
+}
+
+.about_section .card {
+    width: 270px;
+    background-color: C8EFF1;
+}
+
+.about_section .team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_section .team p {
+    margin: 15px;
+}
+
+.about_section .team h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.about_section .team .pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* Styles for mobile devices */
 @media only screen and (max-width: 767px) {
+    .body{
+        padding: 0px;
+        margin: 0px;
+    }
+
     .about_section .menu {
-        display: flex;
-        background-image: url("./../img/menu_bg.png");
+        background-image: url("./../img/mobile_bg.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: left;
@@ -126,14 +122,11 @@
     }
 
     .circle {
-        border-radius: 50%;
+        width: 100px;
+        height: 100px;
         position: absolute;
         top: 0%;
         right: 0%;
-        transform: translate(50%, -50%);
-        background-color: BEB1E2;
-        width: 130px;
-        height: 130px;
     }
 
     .about_section .info {

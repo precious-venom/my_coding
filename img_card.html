@@ -3,17 +3,23 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>img card</title>
     <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+
         .container{
             font-family: Arial, sans-serif;
             padding: 20px;
             margin: 20px;
             background-color: rgb(71, 70, 70); 
             border-radius: 10px;
-            height: 1000px;
-            width: 700px;
-            display: flex;
+            width: fit-content;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
             gap: 20px;
             }
+
         .pic{
             background-color: rgb(51, 48, 48);
             border-radius: 10px;
@@ -23,11 +29,13 @@
             overflow: hidden;
             position: relative;
             }  
+
         .pic img{
             height: 170px;
             width: 100%;
             object-fit: cover;
             }
+
         .more {
             color: white;
             position: absolute;
@@ -41,6 +49,7 @@
             justify-content: center;
             align-items: center;
         }
+
         .full{
             color: white;
             padding: 20px;
@@ -51,16 +60,19 @@
             padding-bottom: 10px;
             font-size: 15px;
         }
+
         .info i{
             padding: 10px;
             position: absolute;
             right: 10px;
             top: 10px;
         }
+
         .text{
             padding-bottom: 10px;
             font-size: 15px;
         }
+
         .rate{
             font-size: 12px;
             color: rgb(135, 131, 131);
@@ -106,6 +118,78 @@
                 </div>
             </div>
         </div> 
+        <!--third image-->
+        <div class="pic">
+            <img src="https://fastly.picsum.photos/id/1084/536/354.jpg?grayscale&hmac=Ux7nzg19e1q35mlUVZjhCLxqkR30cC-CarVg-nlIf60" alt="img 3">
+            <div class="more">
+                <i class="bi bi-three-dots"></i>
+            </div>
+            <div class="full">
+                <div class="info">
+                IMG_654321.jpg <i class="bi bi-pencil-fill"></i>
+                </div>
+                <div class="text">    
+                   05/4/03
+                </div>
+                <div class="rate">
+                    5.2 mb
+                </div>
+            </div>
+        </div>
+        <!--four image-->
+        <div class="pic">
+            <img src="https://fastly.picsum.photos/id/1084/536/354.jpg?grayscale&hmac=Ux7nzg19e1q35mlUVZjhCLxqkR30cC-CarVg-nlIf60" alt="img 3">
+            <div class="more">
+                <i class="bi bi-three-dots"></i>
+            </div>
+            <div class="full">
+                <div class="info">
+                IMG_654321.jpg <i class="bi bi-pencil-fill"></i>
+                </div>
+                <div class="text">    
+                   05/4/03
+                </div>
+                <div class="rate">
+                    5.2 mb
+                </div>
+            </div>
+        </div>
+        <!--five image-->
+        <div class="pic">
+            <img src="https://fastly.picsum.photos/id/1084/536/354.jpg?grayscale&hmac=Ux7nzg19e1q35mlUVZjhCLxqkR30cC-CarVg-nlIf60" alt="img 3">
+            <div class="more">
+                <i class="bi bi-three-dots"></i>
+            </div>
+            <div class="full">
+                <div class="info">
+                IMG_654321.jpg <i class="bi bi-pencil-fill"></i>
+                </div>
+                <div class="text">    
+                   05/4/03
+                </div>
+                <div class="rate">
+                    5.2 mb
+                </div>
+            </div>
+        </div>
+        <!--six image-->
+        <div class="pic">
+            <img src="https://fastly.picsum.photos/id/1084/536/354.jpg?grayscale&hmac=Ux7nzg19e1q35mlUVZjhCLxqkR30cC-CarVg-nlIf60" alt="img 3">
+            <div class="more">
+                <i class="bi bi-three-dots"></i>
+            </div>
+            <div class="full">
+                <div class="info">
+                IMG_654321.jpg <i class="bi bi-pencil-fill"></i>
+                </div>
+                <div class="text">    
+                   05/4/03
+                </div>
+                <div class="rate">
+                    5.2 mb
+                </div>
+            </div>
+        </div>
         <!--third image-->
         <div class="pic">
             <img src="https://fastly.picsum.photos/id/1084/536/354.jpg?grayscale&hmac=Ux7nzg19e1q35mlUVZjhCLxqkR30cC-CarVg-nlIf60" alt="img 3">
